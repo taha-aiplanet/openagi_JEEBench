@@ -1,0 +1,56 @@
+{
+    "phy": {
+        "MCQ": {
+            "problem": "The diameter of a cylinder is measured using a vernier callipers with no zero error. It is found that the zero of the vernier scale lies between $5.10 cm$ and $5.15 cm$ of the main scale. The vernier scale has 50 division equivalent to $2.45 cm$. The $24^{\\text {th }}$ division of the vernier scale exactly coincides with one of the main scale divisions. The diameter of the cylinder is:\n\n(A) $5.112 cm$\n(B) $5.124 cm$\n(C) $5.136 cm$\n(D) $5.148 cm$",
+            "solution": "$50 VSD=2.45 cm$\n$1 VSD=\\frac{2.45}{50} cm=0.049 cm$\nLeast count of vernier $ = 1 MSD - 1 VSD = 0.05 cm - 0.049 cm =0.001 cm$\nThickness of the object is Main scale reading + vernier scale reading $\\times$ least count $=5.10+(24)(0.001) = 5.124 cm$.\n\nTherefore, the answer is \\boxed{B}"
+        },
+        "MCQ(multiple)": {
+            "problem": "A horizontal stretched string, fixed at two ends, is vibrating in its fifth harmonic according to the equation, $y(x$, $\\mathrm{t})=(0.01 \\mathrm{~m}) \\sin \\left[\\left(62.8 \\mathrm{~m}^{-1}\\right) \\mathrm{x}\\right] \\cos \\left[\\left(628 \\mathrm{~s}^{-1}\\right) \\mathrm{t}\\right]$. Assuming $\\pi=3.14$, the correct statement(s) is (are):\n\n(A) The number of nodes is 5.\n(B) The length of the string is $0.25 \\mathrm{~m}$.\n(C) The maximum displacement of the midpoint of the string its equilibrium position is $0.01 \\mathrm{~m}$.\n(D) The fundamental frequency is $100 \\mathrm{~Hz}$.",
+            "solution": "(A) There are 5 complete loops. Therefore, the total number of nodes is 6.\n\n(B) $\\omega=628 \\mathrm{sec}^{-1}$.\nTherefore, \n$$\n\\mathrm{k}=62.8 \\mathrm{~m}^{-1}=\\frac{2 \\pi}{\\lambda} \\Rightarrow \\lambda=\\frac{1}{10}\n$$\n$\\mathrm{v}_{\\mathrm{w}}=\\frac{\\omega}{\\mathrm{k}}=\\frac{628}{62.8}=10 \\mathrm{~ms}^{-1}$\n$L=\\frac{5 \\lambda}{2}=0.25$.\n\n(C) Maximum amplitude of antinode = $2 \\mathrm{~A}=0.01$.\n\n(D) $f=\\frac{v}{2 \\ell}=\\frac{10}{2 \\times 0.25}=20 \\mathrm{~Hz}$.\n\nTherefore, the answer is \\boxed{BC}."
+        },
+        "Integer": {
+            "problem": "The work functions of Silver and Sodium are 4.6 and $2.3 eV$, respectively. The ratio of the slope of the stopping potential versus frequency plot for Silver to that of Sodium is:",
+            "solution": "We know that $KE_{\\max }=hv-\\phi$.\nTherefore, $eV_{st} =hv-\\phi$.\nThat is, $V_{st}=(\\frac{h}{e}) v-\\frac{\\phi}{e}$\n\nSo slope will be $(\\frac{h}{e})$, and it will be same for both the metals.\nSo ratio of the slopes is 1.\n\nTherefore, the answer is \\boxed{1}."
+        },
+        "Numeric": {
+            "problem": "The work functions of Silver and Sodium are 4.6 and $2.3 eV$, respectively. Let the slope of the stopping potential versus frequency plot for Silver be $m_1$ and for that of Sodium be $m_2$. Then what is the value of $\\frac{m_1}{4m_2}$?",
+            "solution": "We know that $KE_{\\max }=hv-\\phi$.\nTherefore, $eV_{st} =hv-\\phi$.\nThat is, $V_{st}=(\\frac{h}{e}) v-\\frac{\\phi}{e}$\n\nSo slope will be $(\\frac{h}{e})$, and it will be same for both the metals.\nTherefore, $m_1 = m_2$. \nThis implies that $\\frac{m_1}{4m_2} = \\frac{1}{4} \\approx 0.25$\n\nTherefore, the answer is \\boxed{0.25}"
+        }
+    },
+    "chem": {
+        "MCQ": {
+            "problem": "Concentrated nitric acid, upon long standing, turns yellow-brown due to the formation of\n\n(A) NO\n(B) $\\mathrm{NO}_{2}$\n(C) $\\mathrm{N}_{2} \\mathrm{O}$\n(D) $\\mathrm{N}_{2} \\mathrm{O}_{4}$",
+            "solution": "$\\mathrm{HNO}_{3}$ decomposes by giving $\\mathrm{NO}_{2}, \\mathrm{O}_{2}, \\mathrm{H}_{2} \\mathrm{O}$\n\n$4 \\mathrm{HNO}_{3} \\longrightarrow 2 \\mathrm{H}_{2} \\mathrm{O}+2 \\mathrm{NO}_{2}+3 \\mathrm{O}_{2}$\n\nTherefore, the answer is \\boxed{B}"
+        },
+        "MCQ(multiple)": {
+            "problem": "Benzene and naphthalene form an ideal solution at room temperature. For this process, the true statement(s) is (are)\n\n(A) $\\Delta G$ is positive\n(B) $\\Delta S_{\\text {system }}$ is positive\n(C) $\\Delta S_{\\text {surroundings }}=0$\n(D) $\\Delta H$ = 0",
+            "solution": "For a solution formation, we know that $\\Delta G$ is always -ve and $\\Delta S_{\\text{system}}$ is always +ve.\nSince there is no heat exchange between the solution and the surrounding $\\Delta S_{\\text{surr.}} = 0$.\nSince it is an ideal solution, $\\Delta H = 0$.\n\nTherefore, the answer is \\boxed{BCD}"
+        },
+        "Integer": {
+            "problem": "The atomic masses of $He$ and $Ne$ are 4 and 20 a.m.u., respectively. The value of the de Broglie wavelength of He gas at $-73^{\\circ} \\mathrm{C}$ is \"$\\mathrm{M}$\" times that of the de Broglie wavelength of $Ne$ at $727^{\\circ} \\mathrm{C}$. What is M?",
+            "solution": "$\\lambda=\\frac{\\mathrm{h}}{\\sqrt{2 \\mathrm{~m}(\\mathrm{KE})}} \\quad \\mathrm{KE} \\propto \\mathrm{T}$\n$\\frac{\\lambda_{He}}{\\lambda_{Ne}}=\\sqrt{\\frac{m_{Ne} \\mathrm{KE}_{Ne}}{m_{He} \\mathrm{KE} E_{He}}}=\\sqrt{\\frac{20 \\times 1000}{4 \\times 200}}=5$\n\nTherefore, the answer is \\boxed{5}"
+        },
+        "Numeric": {
+            "problem": "The atomic masses of $He$ and $Ne$ are 4 and 20 a.m.u., respectively. The value of the de Broglie wavelength of He gas at $2227^{\\circ} \\mathrm{C}$ is \"$\\mathrm{M}$\" times that of the de Broglie wavelength of $Ne$ at $727^{\\circ} \\mathrm{C}$. What is M?",
+            "solution": "$2227^{\\circ} \\mathrm{C} = 2500K$\n$727^{\\circ} \\mathrm{C} = 1000K$\nWe know that $\\lambda=\\frac{\\mathrm{h}}{\\sqrt{2 \\mathrm{~m}(\\mathrm{KE})}} \\quad \\mathrm{KE} \\propto \\mathrm{T}$\nTherefore, $\\frac{\\lambda_{He}}{\\lambda_{Ne}} = \\sqrt{\\frac{m_{Ne} \\mathrm{KE}_{Ne}}{m_{He} \\mathrm{KE} E_{He}}} = \\sqrt{\\frac{20 \\times 1000}{4 \\times 2500}} = \\sqrt{2} = 1.41$\n\nTherefore, the answer is \\boxed{1.41}"
+        }
+    },
+    "math": {
+        "MCQ": {
+            "problem": "Perpendiculars are drawn from points on the line $\\frac{x+2}{2}=\\frac{y+1}{-1}=\\frac{z}{3}$ to the plane $x+y+z=3$. The feet of perpendiculars lie on the line\n\n(A) $\\frac{x}{5}=\\frac{y-1}{8}=\\frac{z-2}{-13}$\n(B) $\\frac{x}{2}=\\frac{y-1}{3}=\\frac{z-2}{-5}$\n(C) $\\frac{x}{4}=\\frac{y-1}{3}=\\frac{z-2}{-7}$\n(D) $\\frac{x}{2}=\\frac{y-1}{-7}=\\frac{z-2}{5}$",
+            "solution": "Any point on line can be represented by $\\lambda$ s.t. $\\frac{x+2}{2}=\\frac{y+1}{-1}=\\frac{z}{3}=\\lambda$\nPutting $\\lambda = 0, 1$, we get two points A(-2,-1,0) and B(0,-2,3)  .\nLet the foot of perpendicular from A on plane be $(\\alpha, \\beta, \\gamma)$\n$\\Rightarrow \\frac{\\alpha+2}{1}=\\frac{\\beta+1}{1}=\\frac{\\beta-0}{1}=\\mu$ (say)\nAlso, $\\alpha+\\beta+\\gamma=3$. Therefore,\n\n$\\Rightarrow  \\mu-2+\\mu-1+\\mu=3 \\Rightarrow \\mu=2$\n$\\Rightarrow  \\M(0,1,2)$\n\nSimilarly foot of perpendicular from $B(0,-2,3)$ on plane is $N\\left(\\frac{2}{3}, \\frac{-4}{3}, \\frac{11}{3}\\right)$\nSo, equation of $MN$ is $\\frac{x-0}{\\frac{2}{3}}=\\frac{y-1}{\\frac{-7}{3}}=\\frac{z-2}{\\frac{5}{3}}$.\n\nTherefore, the answer is \\boxed{D}."
+        },
+        "MCQ(multiple)": {
+            "problem": "For $3 \\times 3$ matrices $M$ and $N$, which of the following statement(s) is (are) NOT correct ?\n\n(A) $N^{T} M N$ is symmetric or skew symmetric, according as $M$ is symmetric or skew symmetric\n(B) $MN-NM$ is skew symmetric for all symmetric matrices $M$ and $N$\n(C) $MN$ is symetric for all symmetric matrices $M$ and $N$\n(D) $(adj M)(adj N)=adj(MN)$ for all invertible matrices $M$ and $N$",
+            "solution": "(A) $(N^{T} M N)^{T}=N^{T} M^{T} N$. \nTherefore, it is symmetric if $M$ is symmetric and skew-symmetric if $M$ is skew-symmetric.\n\n(B) $(MN-NM)^{T} = (MN)^{T}-(NM)^{T} = NM-MN =-(MN-NM)$. \nTherefore, it is skew symmetric.\n\n(C) $(MN)^{T} = N^{T} M^{T} = NM \\neq MN$ hence NOT correct.\n\n(D) $adj(MN) = (adj N)(adj M) \\neq (adj M)(adj N)$ hence NOT correct.\n\nTherefore, the answer is \\boxed{CD}"
+        },
+        "Integer": {
+            "problem": "Consider the set of eight vectors $V=\\{a \\hat{i}+b \\hat{j}+c \\hat{k}: a, b, c \\in\\{-1,1\\}\\}$. Three non-coplanar vectors can be chosen from $V$ in $2^{p}$ ways. Then $p$ is",
+            "solution": "Among set of eight vectors four vectors form body diagonals of a cube, remaining four will be parallel (unlike) vectors.\nNumbers of ways of selecting three vectors will be ${4 \\choose 3} \\times 2 \\times 2 \\times 2=2^{5}$\nHence $p=5$.\n\nTherefore, the answer is \\boxed{5}."
+        },
+        "Numeric": {
+            "problem": "Consider the set of eight vectors $V=\\{a \\hat{i}+b \\hat{j}+c \\hat{k}: a, b, c \\in\\{-1,1\\}\\}$. Three non-coplanar vectors can be chosen from $V$ in $2^{p}$ ways. Then what is $\\frac{p}{2}$?",
+            "solution": "Among set of eight vectors four vectors form body diagonals of a cube, remaining four will be parallel (unlike) vectors.\nNumbers of ways of selecting three vectors will\nbe ${4 \\choose 3} \\times 2 \\times 2 \\times 2=2^{5}$\n\nHence $p=5$\nTherefore, the answer is \\boxed{2.50}."
+        }
+    }
+}
